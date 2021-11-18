@@ -1,10 +1,10 @@
 ---
 title: home
-description: Described as “America's premiere literary tastemaker” by Damian Barr's
-  Literary Salon, Lauren Cerand is a publicist with twenty years of experience running
+description: Described as “America's premiere literary tastemaker” by [Damian Barr's
+  Literary Salon](https://www.theliterarysalon.co.uk), Lauren Cerand is a publicist with twenty years of experience running
   her own thriving global communications consultancy, driven by an intensive personal
   focus on each client’s needs and desires, a vast network of relationships, and unparalleled
-  expertise and creative ingenuity.
+  expertise and creative&nbsp;ingenuity.
 footer_copy: "*Photo: Girls and Their Cats. Web design: Bud Parr.*"
 menu:
   main:

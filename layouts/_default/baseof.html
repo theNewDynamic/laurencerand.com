@@ -33,7 +33,7 @@
             {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}          
             {{ with .Description }}
               <div class="text-3xl text-center px-8 md:px-16 pt-16">
-                {{ . }}
+                {{ . | markdownify }}
               </div>
             {{ end }}
             <div class="text-grey-darkest font-brand nested-no-underline p-4 lg:p-16">            
