@@ -11,7 +11,7 @@ menu:
     weight: 1
 
 ---
-In 2022 thus far, she has worked with **Claire Messud, Bethany C. Morrow_,_** and **Sarah Ruhl.**
+In 2022 thus far, she has worked with **Claire Messud, Bethany C. Morrow,** and **Sarah Ruhl.**
 
 Authors with books on her spring publicity list are **Marcia DeSanctis, Melissa Scholes Young** and **Leanne Shapton**.
 
