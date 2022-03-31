@@ -27,4 +27,4 @@ Essays that Lauren wrote while living in Florence during the first lockdown in I
 
 Lauren has a bachelor’s degree in Industrial & Labor Relations from Cornell University and a certificate in Jewelry Design and Marketing from Pratt Institute, and studied full-time for a year at Alchimia Contemporary Jewellery School in Firenze.
 
-She is a founding director of the [Giancarlo DiTrapano Foundation](https://www.ditrapanofoundation.com/) for literature and the arts in Sezze Romano, Italy, and serves on the advisory committee for [Film Forum](https://filmforum.org/) in New York.
+She is an advisor to [Tennants Cove Writers](https://www.tennantscovewriters.com/) and [Film Forum.](https://filmforum.org/)
