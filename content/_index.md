@@ -10,9 +10,9 @@ menu:
     weight: 1
 
 ---
-This year, she has worked with **Claire Messud, Bethany C. Morrow,** **Sarah Ruhl,** and **Melissa Scholes Young.**
-
-Authors with forthcoming books on Lauren's publicity list are **Marcia DeSanctis, Mark de Silva, Leanne Shapton** and **Robert Perišić**.
+This year, she has worked on publicity for new books in various genres by **Claire Messud, Bethany C. Morrow,** **Sarah Ruhl,** **Melissa Scholes Young,** and **Marcia DeSanctis.**  
+  
+Still come in 2022 are new novels by **Mark de Silva, Joanna Margaret** and **Robert Perišić.**
 
 For a list of 2022 titles, click [here](https://bookshop.org/wishlists/e094075b339c3394bbf012065b34fefa9021ec8c).
 
