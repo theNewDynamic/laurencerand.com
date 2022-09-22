@@ -10,7 +10,7 @@ menu:
     weight: 1
 
 ---
-"My first call is to Lauren Cerand, a highly sought-after independent publicity guru who exudes an easy bookish glamour," wrote Tess Taylor in a 2018 feature on "[The Art of Publicity](https://www.pw.org/content/the_art_of_publicity_how_indie_publicists_work_with_writers)" for _Poets & Writers._ Lauren has twenty years of experience running her own thriving global communications consultancy, driven by an intensive personal focus on each client’s needs and desires, a vast network of relationships, and unparalleled expertise and ingenuity.  
+"My first call is to Lauren Cerand, a highly sought-after independent publicity guru who exudes an easy bookish glamour," wrote Tess Taylor in a 2018 feature on "[The Art of Publicity](https://www.pw.org/content/the_art_of_publicity_how_indie_publicists_work_with_writers)" for _Poets & Writers._   
   
 She helps creative professionals to connect with audiences and inspire community, often through the lens of media. Lauren has advised writers, artists, publishers, and media and cultural organizations that are household names throughout her career, and guided many more that are still finding their path. While tickets for her October 2022 “[Publicity 101 for Writers](https://www.brownpapertickets.com/event/5552810)” conversation with Sari Botton have sold out, subscribers to [Memoir Monday](https://memoirmonday.substack.com/) will receive access to the recording.  
   
