@@ -24,5 +24,3 @@ Essays that Lauren wrote while living in Florence during the first lockdown in I
 Lauren has a bachelor's degree in Industrial & Labor Relations from Cornell University and a certificate in Jewelry Design and Marketing from Pratt Institute, and studied full-time for a year at Alchimia Contemporary Jewellery School in Firenze in 2019-2020.
 
 She volunteers as an advisor to [Film Forum](https://filmforum.org/) in New York, the international literary magazine [Off Assignment](https://www.offassignment.com/), and [The Foxie G Foundation](https://thefoxiegfoundation.org/) in Maryland, which, through rescue, rehabilitation, adoption and permanent retirement programs, provides a future for horses facing uncertainty; and is a member of the [City University Club](http://www.cityuniversityclub.co.uk/) in London and the Cornell Club in New York. After two decades in New York and a year in Florence, Italy, Lauren now lives in Baltimore.
-
-_Photo: Girls and Their Cats. Web design: Bud Parr._
