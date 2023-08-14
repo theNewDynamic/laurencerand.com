@@ -9,7 +9,7 @@ menu:
 
 ---
 
-"My first call is to Lauren Cerand, a highly sought-after independent publicity guru who exudes an easy bookish glamour," wrote Tess Taylor in a 2018 feature on "[The Art of Publicity](https://www.pw.org/content/the_art_of_publicity_how_indie_publicists_work_with_writers)" for _Poets & Writers._
+“Publicist does not do this connector-extraordinaire justice: think, rather, of a Wharton hostess armed with an iPhone, draped in vintage and with even an array of hats (with pins) in the back of her Mini.” — Patrick Gale
 
 Lauren has advised writers, artists, publishers, and media and cultural organizations that are household names throughout her career, and guided many more that are still finding their path. She helps creative professionals to connect with audiences and inspire community, often through the lens of media, and led the inaugural cohort of [Get the Word Out,](https://www.pw.org/about-us/news-releases/poets_writers_selects_ten_debut_authors_for_new_publicity_incubator) a new publicity incubator for debut authors launched by _Poets & Writers,_ that will continue on with new perspectives. Watch their final [reading](https://www.youtube.com/watch?v=I4s_1pV-hsY), a master class in presentation and poise.
 
