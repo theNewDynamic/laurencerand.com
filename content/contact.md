@@ -1,6 +1,6 @@
 ---
 title: "Messages checked daily"
-linktitle: Letters
+linktitle: Contact
 menu:
   main:
     weight: 90
@@ -8,4 +8,4 @@ menu:
 ---
 ## Send a Letter
 
-{{< form-contact >}}
+()[mailto:laurencerandpr@gmail.com]
