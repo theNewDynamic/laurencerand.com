@@ -8,4 +8,4 @@ menu:
 ---
 ## Send a Letter
 
-()[mailto:laurencerandpr@gmail.com]
+[LaurenCerandpr@gmail.com](mailto:laurencerandpr@gmail.com)
