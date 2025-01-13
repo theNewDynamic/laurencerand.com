@@ -2,7 +2,7 @@
 title: home
 description: Lauren Cerand (b. 1979 in Washington, D.C.) is an independent public relations representative and consultant with more than two decades of experience in the worlds of arts, culture and literature spanning publicity and strategic communications guidance to event programming and board leadership.
 
-footer_copy: "*Photo: Girls and Their Cats. Web design: Bud Parr.*"
+footer_copy: "*Photo: Joanna Tillman. Web design: Bud Parr.*"
 menu:
   main:
     weight: 1
