@@ -9,7 +9,7 @@ menu:
 
 ---
 
-She prioritizes projects with an international perspective and a commitment to the social good, and serves on the advisory committees of [Off Assignment](https://www.offassignment.com) magazine, and [Film Forum](https://filmforum.org) in New York.
+She prioritizes projects with an international perspective and a commitment to the social good, and serves on the advisory committee of [Film Forum](https://filmforum.org) in New York.
 
 She is a co-creator, with Chris McCaffery and Michael Barron, of the [Washington Review of Books](https://www.washingreview.com) Presents reading series, and the founder of the literary lunch series at the [City University Club](https://www.cityuniversityclub.co.uk) of London. In Spring 2025, she will appear on the [Tranquility du Jour](https://kimberlywilson.com/podcast/) Podcast, and in-person at the [Dallas Literary Festival](https://www.dallasliteraryfestival.org).
 
