@@ -1,6 +1,6 @@
 ---
 title: home
-description: Lauren Cerand (b. 1979 in Washington, D.C.) is a publicist and consultant with more than two decades of experience in the worlds of literature and the arts, spanning strategic communications to high-profile events and board leadership.
+description: Lauren Cerand (b. 1979 in Washington, D.C.) is the founder and owner of Lauren Cerand Public Relations, and has more than two decades of experience in the field.
 
 footer_copy: "*Photo: Joanna Tillman. Web design: Bud Parr.*"
 menu:
@@ -8,8 +8,6 @@ menu:
     weight: 1
 
 ---
-Lauren Cerand (b. 1979 in Washington, D.C.) is the founder and owner of Lauren Cerand Public Relations, and has more than two decades of experience in the field.
-
 In July, Morgan Jerkins said, when [profiled](https://paw.princeton.edu/article/morgan-jerkins-14-explores-love-across-generations-new-novel) in *Princeton Alumni Weekly*, “I knew it would take a village— in-house with HarperCollins and with outside publicist Lauren Cerand— for *Zeal* to succeed.”
 
 Her publicity list in 2025 includes Prix Renaudot winner Tierno Monénembo, for his new novel, *The Lives and Deaths of Véronique Bangoura*, translated from the French by Ryan Chamberlain for [Schaffner Press](https://schaffnerpress.com/) (March); *New York Times* bestselling author [Morgan Jerkins](http://www.morgan-jerkins.com/), for her new novel, *Zeal* (Harper, April); literary critic [Martha Anne Toll](https://www.marthaannetoll.com/), for her new novel, *Duet for One* (Regal House, May); artist and debut novelist [Deborah Brown English](https://www.deborahbrownenglish.com/) for *Time’s Breath *(September); artist and debut novelist [Margaret Hutton](https://www.margarethutton.com/) for *If You Leave* (Regal House, October); Will Mountain Cox, editor of *The Relegation Reader,* a new anthology of contemporary writing from Europe, the U.K. and the U.S. ([Relegation Books](https://www.relegationbooks.com/), November); and the U.S. tour for *The Greyhound Diary*, edited by Anna Mathias (Zuleika Press in London).
