@@ -1,6 +1,6 @@
 ---
 title: home
-description: Lauren Cerand (b. 1979 in Washington, D.C.) is the founder and owner of Lauren Cerand Public Relations, and has more than two decades of experience in the field.
+description: "\“My first call is to Lauren Cerand, a highly sought-after independent publicity guru who exudes an easy bookish glamour.\" –Poets & Writers"
 
 footer_copy: "*Photo: Joanna Tillman. Web design: Bud Parr.*"
 menu:
