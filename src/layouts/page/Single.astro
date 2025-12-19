@@ -3,7 +3,7 @@ import Base from "../Base.astro";
 
 import Marked from "@components/Marked.astro"
 import { getImage } from 'astro:assets';
-import defaultImage from '../../content/photo-2026.jpeg'
+import defaultImage from '../../content/default-image.jpeg'
 const { entry, entry: { description, image, footer_copy } } = Astro.props
 import { render } from 'astro:content';
 const { Content, headings } = await render(entry);
