@@ -1,0 +1,23 @@
+---
+import { marked } from 'marked'
+
+interface Props {
+  /**
+   * A markdown string.
+   * @example "__Read on book__! Available [here](/book)"
+   */
+  text: string
+}
+
+marked.use({
+  mangle: false,
+  headerIds: false,
+});
+let { text } = Astro.props
+if(text && (text.includes('*') || text.includes('_'))) {
+  text = marked.parseInline(text)
+}
+---
+{text && (
+  <span set:html={text}></span>
+)}

@@ -1,18 +1,24 @@
 ---
 import Base from "../Base.astro";
-const { entry, entry: { description } } = Astro.props
+import Marked from "@components/Marked.astro"
+import { getImage } from 'astro:assets';
+import defaultImage from '../../content/photo-2026.jpeg'
+const { entry, entry: { description, image = defaultImage, footer_copy } } = Astro.props
 import { render } from 'astro:content';
 const { Content, headings } = await render(entry);
+const optimizedBackground = await getImage({src: image, format: 'avif'})
+
 ---
 <Base>
-  {description && <div class="text-3xl text-center px-8 md:px-16 pt-16">{description}</div>}
-<div class="text-grey-darkest font-brand nested-no-underline p-4 lg:p-16">
-  <div class="text-xl prose mx-auto">
-    <Content />
+  <div slot="image" class="md:sticky top-0 w-full h-screen max-h-full bg-cover bg-center" style={{backgroundImage: `url(${optimizedBackground.src})`}}>
   </div>
-
-    <div class="text-xm">
-
+  {description && <div class="text-3xl text-center px-8 md:px-16 pt-16">{description}</div>}
+  <div class="text-grey-darkest font-brand nested-no-underline p-4 lg:p-16">
+    <div class="text-xl prose mx-auto">
+      <Content />
     </div>
-</div>
+    {footer_copy && <div class="text-xm mt-4">
+      <Marked text={footer_copy} />
+      </div>}
+  </div>
 </Base>

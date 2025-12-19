@@ -5,8 +5,6 @@ import "../styles/prose.css"
 import { getImage, Font } from "astro:assets"
 import Nav from "@components/Nav.astro"
 import Header from "@components/Header.astro"
-import mainImage from '../assets/photo-2026.jpeg'
-const optimizedBackground = await getImage({src: mainImage, format: 'avif'})
 ---
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -24,10 +22,8 @@ const optimizedBackground = await getImage({src: mainImage, format: 'avif'})
   <main role="main" class="md:flex font-serif text-black">
     <Header />
     <div class="flex flex-wrap w-full">
-      <div class="w-full md:w-1/2 order-1 md:order-0 text-grey-darker">
+      <div class="w-full md:w-1/2 order-1 md:order-0 text-gray-600">
         <slot name="image">
-          <div class="md:sticky top-0 w-full h-screen max-h-full bg-cover bg-center" style={{backgroundImage: `url(${optimizedBackground.src})`}}>
-          </div>
         </slot>
       </div>
       <div class="font-brand w-full md:w-1/2">

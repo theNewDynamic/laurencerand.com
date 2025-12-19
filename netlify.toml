@@ -1,0 +1,27 @@
+[build]
+  command = "npm run build"
+[build.environment]
+  NODE_VERSION = "18.20.8"
+[functions]
+  directory = "functions"
+[context]
+
+[context.production]
+[context.production.environment]
+  GOES = "here"
+  # In the off chance we need to self host the images...
+  # IMAGE_HOSTING = "self"
+
+
+[context.deploy-preview]
+  command = "npx astro build --site $DEPLOY_PRIME_URL && npm run build_search"
+
+[context.branch-deploy]
+  command = "npx astro build --site $DEPLOY_URL && npm run build_search"
+[context.branch-deploy.environment]
+  GOES = "here"
+
+
+[context."regisphilibert/issue222".environment]
+  ASTRO_ENV="production"
+  GTM_ID="GTM-KFQL4XH8"
