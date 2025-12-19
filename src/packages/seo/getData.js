@@ -3,6 +3,7 @@ import { isHome, absUrl, escapeString } from "."
 import getCustomData from "./getCustomData";
 import site from "@data/site.js";
 import { getEntry } from 'astro:content';
+import defaultImage from '../../content/photo-2026.jpeg'
 /**
  * Retrieves and processes data for a given entry to format for SEO and metadata purposes.
  * @param {Object} entry - The entry object containing data to be processed.
@@ -114,10 +115,10 @@ const getData = async (entry) => {
     title = site.title
     ogTitle = site.title
   }
-  let siteImage = defaultEntry.image || ""
-  console.log({defaultEntry})
+  //let siteImage = defaultEntry.image || ""
+
   /** The image is inferred, with seoImage taking precedence, followed by the entry's own image and finally the siteImage */
-  image = seoImage || image || siteImage
+  image = seoImage || image || defaultImage
 
   /** imageAlt defaults to an empty string */
   let imageAlt = ''

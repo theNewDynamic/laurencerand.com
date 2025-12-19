@@ -1,6 +1,5 @@
 ---
 title: home
-image: './photo-2026.jpeg'
 description: "\"My first call is to Lauren Cerand, a highly sought-after independent publicity guru who exudes an easy bookish glamour.\" –Poets & Writers"
 
 footer_copy: "*Photo: Joanna Tillman. Web design: Bud Parr.*"
