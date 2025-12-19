@@ -16,9 +16,10 @@ const optimizedBackground = await getImage({src: image, format: 'avif'})
   <div class="text-grey-darkest font-brand nested-no-underline p-4 lg:p-16">
     <div class="text-xl prose mx-auto">
       <Content />
-    </div>
-    {footer_copy && <div class="text-xm mt-4">
+      {footer_copy && <div class="text-xm mt-4">
       <Marked text={footer_copy} />
       </div>}
+    </div>
+
   </div>
 </Base>
