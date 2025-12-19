@@ -1,0 +1,42 @@
+---
+import "@tw"
+import "../styles/main.css"
+import "../styles/prose.css"
+import { getImage, Font } from "astro:assets"
+import Nav from "@components/Nav.astro"
+import Header from "@components/Header.astro"
+import mainImage from '../assets/photo-2026.jpeg'
+const optimizedBackground = await getImage({src: mainImage, format: 'avif'})
+---
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1" />
+  <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width" />
+  <Font cssVariable='--font-sans' preload />
+  <Font cssVariable='--font-serif' preload />
+  </head>
+  <body>
+  <main role="main" class="md:flex font-serif text-black">
+    <Header />
+    <div class="flex flex-wrap w-full">
+      <div class="w-full md:w-1/2 order-1 md:order-0 text-grey-darker">
+        <slot name="image">
+          <div class="md:sticky top-0 w-full h-screen max-h-full bg-cover bg-center" style={{backgroundImage: `url(${optimizedBackground.src})`}}>
+          </div>
+        </slot>
+      </div>
+      <div class="font-brand w-full md:w-1/2">
+        <Nav />
+          <slot />
+      </div>
+    </div>
+  </main>
+  <div class="bordered bordered-t"></div>
+  <div class="bordered bordered-b"></div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+@import "./tailwind.css";
+/* Apline utility */
+[x-cloak] { display: none !important; }
+/* Add global CSS here */
+body {
+  @apply border-solid border-frame border-r-8 border-l-8;
+ }
+ .bordered {
+   @apply fixed w-full border-solid border-frame border-b-8;
+ }
+ .bordered-b {
+   @apply top-0;
+ }
+ .bordered-t {
+   @apply bottom-0;
+ }
+
+
+footer {
+  @apply text-xs;
+}
+
+ul[name=main] {
+  @apply text-center pt-8;
+}
+ul[name=main] li {
+  @apply inline-block text-xl px-2 lowercase;
+}
+ul[name=main] li a{
+  @apply no-underline text-gray-600;
+}
+
+ul[name=main] li a.active{
+  @apply border-b border-t-0 border-l-0 border-r-0 border-solid border-gray-600;
+}
+
+blockquote {
+  @apply text-3xl text-center px-8 py-4 text-gray-600;
+}

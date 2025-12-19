@@ -1,0 +1,22 @@
+---
+import { pages } from '@data/collections';
+import Layout from '@layouts/page/Single.astro';
+
+export async function getStaticPaths() {
+  const entries = pages
+  return entries.map(entry => {
+    const slug = entry.id != "index" ? entry.slug : undefined
+    return {
+      params: {
+        slug
+      },
+      props: {
+        entry
+      }
+    }
+  })
+}
+
+const { entry } = Astro.props
+---
+<Layout {entry} />

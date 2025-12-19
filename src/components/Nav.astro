@@ -1,0 +1,18 @@
+---
+import { getMenu } from "@data/menus"
+
+const menu = getMenu('header', Astro.url.pathname)
+---
+{menu &&
+  <nav>
+    <ul class="flex justify-center gap-4 pt-8 pb-2 text-xl lowercase">
+      {menu.map(({url, copy, active}) =>
+        <li>
+          <a class:list={[active && "border-b"]} href={url} title={`${copy} page`}>
+            {copy}
+          </a>
+        </li>
+      )}
+    </ul>
+  </nav>
+}
