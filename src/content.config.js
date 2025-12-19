@@ -6,9 +6,11 @@ const pages = defineCollection({
     title: z.string(),
     slug: z.string().optional(),
     image: image().optional(),
+    description: z.string().optional(),
     footer_copy: z.string().optional(),
     seo: z.object({
-      title: z.string().optional()
+      title: z.string().optional(),
+      description: z.string().optional(),
     }).optional()
   })
 });

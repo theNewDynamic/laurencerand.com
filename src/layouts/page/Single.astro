@@ -1,5 +1,6 @@
 ---
 import Base from "../Base.astro";
+
 import Marked from "@components/Marked.astro"
 import { getImage } from 'astro:assets';
 import defaultImage from '../../content/photo-2026.jpeg'
@@ -7,9 +8,8 @@ const { entry, entry: { description, image = defaultImage, footer_copy } } = Ast
 import { render } from 'astro:content';
 const { Content, headings } = await render(entry);
 const optimizedBackground = await getImage({src: image, format: 'avif'})
-
 ---
-<Base>
+<Base {entry}>
   <div slot="image" class="md:sticky top-0 w-full h-screen max-h-full bg-cover bg-center" style={{backgroundImage: `url(${optimizedBackground.src})`}}>
   </div>
   {description && <div class="text-3xl text-center px-8 md:px-16 pt-16">{description}</div>}

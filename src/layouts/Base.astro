@@ -5,6 +5,10 @@ import "../styles/prose.css"
 import { getImage, Font } from "astro:assets"
 import Nav from "@components/Nav.astro"
 import Header from "@components/Header.astro"
+import { getMetasData } from "../packages/seo";
+import { SEO } from "astro-seo";
+const { entry } = Astro.props
+const seoData = await getMetasData(entry)
 ---
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -15,6 +19,7 @@ import Header from "@components/Header.astro"
   <meta name="MobileOptimized" content="320" />
   <meta name="viewport" content="width=device-width,minimum-scale=1" />
   <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width" />
+  <SEO {...seoData} />
   <Font cssVariable='--font-sans' preload />
   <Font cssVariable='--font-serif' preload />
   </head>

@@ -2,6 +2,7 @@
 title: Contact
 seo:
   title: Messages checked daily
+  description: "Send a message to Lauren Cerand"
 ---
 
 ## Send a Letter

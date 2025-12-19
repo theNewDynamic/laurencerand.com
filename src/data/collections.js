@@ -13,4 +13,7 @@ const collections = Object.fromEntries(
   }))])
 );
 
-export const pages = collections.pages
+export const pages = collections.pages.map(e => ({
+  ...e,
+  home: e.id == 'index' ? true : false,
+}))
