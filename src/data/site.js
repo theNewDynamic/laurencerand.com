@@ -2,7 +2,7 @@ import { ASTRO_ENV } from 'astro:env/server'
 
 export default {
   title: "Lauren Cerand",
-  description: "A site description",
+  description: "Lauren Cerand is the founder and owner of Lauren Cerand Public Relations, and has been active in the field since 2001.",
   image: "./content/photo-2026.jpeg",
   gtmId: false,
   // If plausible ID/domain set it here.
