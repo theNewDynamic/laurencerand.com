@@ -3,7 +3,7 @@ import { isHome, absUrl, escapeString } from "."
 import getCustomData from "./getCustomData";
 import site from "@data/site.js";
 import { getEntry } from 'astro:content';
-import defaultImage from '../../content/default-image.jpeg'
+import defaultImage from '../../content/cerand-2026-01-12.jpeg'
 /**
  * Retrieves and processes data for a given entry to format for SEO and metadata purposes.
  * @param {Object} entry - The entry object containing data to be processed.
