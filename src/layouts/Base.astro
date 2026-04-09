@@ -8,7 +8,10 @@ import Header from "@components/Header.astro"
 import { getMetasData } from "../packages/seo";
 import { SEO } from "astro-seo";
 const { entry } = Astro.props
-const seoData = await getMetasData(entry)
+const seoData = await getMetasData({
+  ...entry,
+  url: Astro.url.pathname
+})
 ---
 <!DOCTYPE html>
 <html lang="en" class="no-js">
