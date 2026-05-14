@@ -1,6 +1,6 @@
 ---
 title: home
-quote: "\“My first call is to Lauren Cerand, a highly sought-after independent publicity guru who exudes an easy bookish glamour.\""
+quote: "\"My first call is to Lauren Cerand, a highly sought-after independent publicity guru who exudes an easy bookish glamour.\""
 attribution: "Poets & Writers"
 footer_copy: "*Photo: Joanna Tillman. Web design: Bud Parr.*"
 
