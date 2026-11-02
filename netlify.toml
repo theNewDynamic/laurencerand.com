@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
 [build.environment]
-  NODE_VERSION = "18.20.8"
+  NODE_VERSION = "22.23.4"
 [functions]
   directory = "functions"
 [context]
@@ -14,10 +14,10 @@
 
 
 [context.deploy-preview]
-  command = "npx astro build --site $DEPLOY_PRIME_URL && npm run build_search"
+  command = "npx astro build --site $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "npx astro build --site $DEPLOY_URL && npm run build_search"
+  command = "npx astro build --site $DEPLOY_URL"
 [context.branch-deploy.environment]
   GOES = "here"
 

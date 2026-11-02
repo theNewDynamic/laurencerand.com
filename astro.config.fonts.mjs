@@ -1,5 +1,7 @@
+// @ts-check
 import { fontProviders } from 'astro/config';
 
+/** @type {NonNullable<import('astro').AstroUserConfig['fonts']>} */
 export default [
   {
     name: "Inter",
@@ -26,6 +28,6 @@ export default [
       'Georgia',
       'serif',
     ],
-    weights: [300, 400, 500, 600, 700, 800],
+    weights: [300, 400, 500, 600, 700],
   },
 ]
