@@ -8,9 +8,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
     site: 'https://www.laurencerand.com',
     integrations: [tndOps(), sitemap()],
-    experimental: {
-      fonts
-    },
+    fonts,
     env: {
       schema: {
         ASTRO_ENV: envField.string({
