@@ -14,10 +14,10 @@
 
 
 [context.deploy-preview]
-  command = "npx astro build --site $DEPLOY_PRIME_URL && npm run build_search"
+  command = "npx astro build --site $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "npx astro build --site $DEPLOY_URL && npm run build_search"
+  command = "npx astro build --site $DEPLOY_URL"
 [context.branch-deploy.environment]
   GOES = "here"
 
