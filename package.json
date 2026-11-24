@@ -6,11 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "build_ci": "sh scripts/build.sh"
+    "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^14.4.9",
     "@astrojs/sitemap": "^3.7.4",
     "@tailwindcss/vite": "^4.3.3",
     "@thenewdynamic/astro-tnd-ops": "github:theNewDynamic/astro-tnd-ops#semver:^0.2.0",
@@ -18,12 +16,5 @@
     "astro-seo": "^0.8.4",
     "marked": "^17.0.1",
     "tailwindcss": "^4.3.3"
-  },
-  "devDependencies": {
-    "vite": "^8.3.8",
-    "wrangler": "^4.168.0"
-  },
-  "engines": {
-    "node": ">=22.23.4"
   }
 }
